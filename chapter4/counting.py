@@ -16,3 +16,7 @@ for odd in range(1,20, 2):
 print("======== Multiple of three using List compensation ===========")
 multiples = [3 * value for value in range(3,30)]
 print(multiples)
+
+print("======== Cubes using List compensation ===========")
+cubes = [c**3 for c in range(1,10)]
+print(cubes)
